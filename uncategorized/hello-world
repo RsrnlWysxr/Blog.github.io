@@ -388,6 +388,25 @@
 
         
         
+            <div class="prev-next">
+                
+                    <section class="prev">
+                        <span class="art-item-left">
+                            <h6><i class="fas fa-chevron-left" aria-hidden="true"></i>&nbsp;Previous</h6>
+                            <h4>
+                                <a href="/uncategorized/理解二分查找" rel="prev" title="理解二分查找">
+                                  
+                                      理解二分查找
+                                  
+                                </a>
+                            </h4>
+                            
+                        </span>
+                    </section>
+                
+                
+            </div>
+        
       </section>
     </article>
   
