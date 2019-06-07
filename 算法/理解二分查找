@@ -140,7 +140,7 @@
 			
 				<div class="m_search">
 					<form name="searchform" class="form u-search-form">
-						<input type="text" class="input u-search-input" placeholder="Search">
+						<input type="text" class="input u-search-input" placeholder="搜索">
 						<i class="icon fas fa-search fa-fw"></i>
 					</form>
 				</div>
@@ -316,8 +316,7 @@
 
       <section class="article typo">
         <div class="article-entry" itemprop="articleBody">
-          <p>&lt;%- toc(post.content) %&gt;</p>
-<h1 id="理解二分查找"><a href="#理解二分查找" class="headerlink" title="理解二分查找"></a>理解二分查找</h1><h2 id="何为二分查找法"><a href="#何为二分查找法" class="headerlink" title="何为二分查找法"></a>何为二分查找法</h2><p>以下来自Wiki</p>
+          <h2 id="何为二分查找法"><a href="#何为二分查找法" class="headerlink" title="何为二分查找法"></a>何为二分查找法</h2><p>以下来自Wiki</p>
 <blockquote>
 <p>在计算机科学中，<strong>二分搜索</strong>（英语：binary search），也称<strong>折半搜索</strong>（英语：half-interval search、<strong>对数搜索</strong>（英语：logarithmic search，是一种在有序数组中查找某一特定元素的搜索算法。搜索过程从数组的中间元素开始，如果中间元素正好是要查找的元素，则搜索过程结束；如果某一特定元素大于或者小于中间元素，则在数组大于或小于中间元素的那一半中查找，而且跟开始一样从中间元素开始比较。如果在某一步骤数组为空，则代表找不到。这种搜索算法每一次比较都使搜索范围缩小一半。</p>
 </blockquote>
@@ -382,10 +381,10 @@
     <div class="new-meta-box">
       
         
-          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2019-06-07T23:31:00+08:00">
+          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2019-06-07T23:34:15+08:00">
   <a class="notlink">
     <i class="fas fa-clock" aria-hidden="true"></i>
-    <p>last updated at Jun 7, 2019</p>
+    <p>最后更新于 Jun 7, 2019</p>
   </a>
 </div>
 
@@ -446,7 +445,7 @@
                 
                     <section class="next">
                         <span class="art-item-right" aria-hidden="true">
-                            <h6>Next&nbsp;<i class="fas fa-chevron-right" aria-hidden="true"></i></h6>
+                            <h6>下一页&nbsp;<i class="fas fa-chevron-right" aria-hidden="true"></i></h6>
                             <h4>
                                 <a href="/uncategorized/hello-world" rel="prev" title="Hello World">
                                     
@@ -544,14 +543,14 @@
   <section class="widget toc-wrapper">
     
 <header class="pure">
-  <div><i class="fas fa-list fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;TOC</div>
+  <div><i class="fas fa-list fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;本文目录</div>
   
     <div class="wrapper"><a class="s-toc rightBtn" rel="external nofollow noopener noreferrer" href="javascript:void(0)"><i class="fas fa-thumbtack fa-fw"></i></a></div>
   
 </header>
 
     <div class="content pure">
-      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#理解二分查找"><span class="toc-text">理解二分查找</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#何为二分查找法"><span class="toc-text">何为二分查找法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#二分查找法的使用"><span class="toc-text">二分查找法的使用</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#C-中的二分查找法"><span class="toc-text">C++中的二分查找法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#左闭右开原则"><span class="toc-text">左闭右开原则</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#lower-bound返回值说明"><span class="toc-text">lower_bound返回值说明</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#upper-bound返回值说明"><span class="toc-text">upper_bound返回值说明</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#使用Python实现lower-bound"><span class="toc-text">使用Python实现lower_bound()</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#丑陋实现"><span class="toc-text">丑陋实现</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#优化实现"><span class="toc-text">优化实现</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#结尾"><span class="toc-text">结尾</span></a></li></ol></li></ol>
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#何为二分查找法"><span class="toc-text">何为二分查找法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#二分查找法的使用"><span class="toc-text">二分查找法的使用</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#C-中的二分查找法"><span class="toc-text">C++中的二分查找法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#左闭右开原则"><span class="toc-text">左闭右开原则</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#lower-bound返回值说明"><span class="toc-text">lower_bound返回值说明</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#upper-bound返回值说明"><span class="toc-text">upper_bound返回值说明</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#使用Python实现lower-bound"><span class="toc-text">使用Python实现lower_bound()</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#丑陋实现"><span class="toc-text">丑陋实现</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#优化实现"><span class="toc-text">优化实现</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#结尾"><span class="toc-text">结尾</span></a></li></ol>
     </div>
   </section>
 
@@ -628,7 +627,7 @@
   <section class="widget category">
     
 <header class="pure">
-  <div><i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;Categories</div>
+  <div><i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;文章分类</div>
   
     <a class="rightBtn" rel="nofollow" href="/blog/categories/" title="blog/categories/">
     <i class="fas fa-expand-arrows-alt fa-fw"></i></a>
@@ -655,7 +654,7 @@
   <section class="widget tagcloud">
     
 <header class="pure">
-  <div><i class="fas fa-fire fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;Hot Tags</div>
+  <div><i class="fas fa-fire fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;热门标签</div>
   
     <a class="rightBtn" rel="nofollow" href="/blog/tags/" title="blog/tags/">
     <i class="fas fa-expand-arrows-alt fa-fw"></i></a>
@@ -736,19 +735,19 @@
     </div>
   
   <br>
-  <div><p>Blog content follows the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) License</a></p>
+  <div><p>博客内容遵循 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议</a></p>
 </div>
   <div>
-    Use
+    本站使用
     <a href="https://xaoxuu.com/wiki/material-x/" target="_blank" class="codename">Material X</a>
-    as theme
+    作为主题
     
-      , 
-      total visits
+      ，
+      总访问量为
       <span id="busuanzi_value_site_pv"><i class="fas fa-spinner fa-spin fa-fw" aria-hidden="true"></i></span>
-      times
+      次
     
-    . 
+    。
   </div>
 </footer>
 <script>setLoadingBarProgress(80);</script>
@@ -854,15 +853,15 @@
 <!-- 复制 -->
 <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
 <script>
-  let COPY_SUCCESS = "Copied";
-  let COPY_FAILURE = "Copy failed";
+  let COPY_SUCCESS = "复制成功";
+  let COPY_FAILURE = "复制失败";
   /*页面载入完成后，创建复制按钮*/
   !function (e, t, a) {
     /* code */
     var initCopyCode = function(){
       var copyHtml = '';
       copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
-      copyHtml += '  <i class="fa fa-copy"></i><span>Copy</span>';
+      copyHtml += '  <i class="fa fa-copy"></i><span>复制</span>';
       copyHtml += '</button>';
       $(".highlight .code pre").before(copyHtml);
       var clipboard = new ClipboardJS('.btn-copy', {
